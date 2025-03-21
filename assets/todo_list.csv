@@ -1,3 +1,4 @@
-id, todo, status
-1, sing, pending
-2, work, complete
+id, title, description, created_at, status
+1, sing, pending, 12, ready
+2, work, complete , 12, ready
+3, work, not interested, 12, ready
