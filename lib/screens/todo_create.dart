@@ -13,6 +13,7 @@ class _TodoCreate extends State<TodoCreate> {
   List<String> menuItems = ['ready', 'completed', 'pending'];
   String? selectedValue = 'ready';
   TextEditingController titleController = TextEditingController();
+  TextEditingController descController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
@@ -33,7 +34,7 @@ class _TodoCreate extends State<TodoCreate> {
                 const Text("Description"),
                 TextBox(
                   maxLine: 5,
-                  textEditingController: titleController,
+                  textEditingController: descController,
                   hintText: "Description",
                 ),
                 const Text("Status"),
