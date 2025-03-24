@@ -17,11 +17,11 @@ class TextBox extends StatelessWidget {
       controller: textEditingController,
       maxLines: maxLine,
       decoration: InputDecoration(
-          border: OutlineInputBorder(
+          border: const OutlineInputBorder(
             borderRadius: BorderRadius.all(Radius.circular(10)),
           ),
           hintText: hintText,
-          hintStyle: TextStyle(color: Colors.grey)),
+          hintStyle: const TextStyle(color: Colors.grey)),
     );
   }
 }
